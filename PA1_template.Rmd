@@ -120,7 +120,7 @@ ggplot(stepsPerDay, aes(total_steps)) +
 Experiment for the activity patterns between weekdays and weekends using the imputed activity data. To visualize, make a panel plot containing a time series plot of 𝚕") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). 
 
 As you can see the acitivity pattern of weekdays and weekend quite differences. 
-From this, we can see more activities during the daytime more in weekdays compare with weekend. 
+From this, we can see more activities in the moring time in weekdays whereas see more activities over the daytime in weekend. 
  
 ```{r, echo=TRUE}
 weekdays <- c('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday')
